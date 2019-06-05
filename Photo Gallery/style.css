@@ -1,0 +1,45 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+h1{
+  color:magenta;
+  font-family: 'Indie Flower', cursive;
+  text-align: center;
+  font-weight: bold;
+  font-size: 100px;
+}
+.photos{
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+margin: 5px 10px;
+float:left;
+}
+
+.photos img{
+        transition: 1s;
+        padding: 10px;
+        width: 300px;
+        height: auto;
+        object-fit: cover;
+}
+
+.photos img:hover{
+  filter: grayscale(70%);
+}
+
+@media only screen and (max-width: 700px){
+  .images{
+    width:50%
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px){
+  .images{
+    width:100%
+  }
+}

@@ -1,0 +1,21 @@
+h1{
+color:magenta;
+font-family: 'Sacramento', cursive;
+}
+
+p{
+  color: lime;
+  text-decoration:underline;
+}
+
+p {
+  color: darkred;
+}
+
+.space-fact {
+  color: slategrey;
+}
+
+#nasa-suit-cost {
+  color: midnightblue;
+}
